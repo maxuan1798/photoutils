@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maxuan.photoutils">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity android:name=".PictureSelectActivity"/>
+        <activity android:name=".ViewPagerActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".PhotoPreviewActivity" android:theme="@style/BarOverlay"/>
+        <activity android:name=".PhotoBrowserActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+    </application>
+
+</manifest>

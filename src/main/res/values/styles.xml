@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BarOverlay" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/OverlayActionBar</item>
+        <item name="actionBarStyle">@style/OverlayActionBar</item>
+        <item name="android:actionBarSize">48dp</item>
+        <item name="actionBarSize">48dp</item>
+    </style>
+
+    <style name="OverlayActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/color_mask</item>
+        <item name="background">@color/color_mask</item>
+    </style>
+</resources>

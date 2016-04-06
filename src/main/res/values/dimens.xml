@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rectangle_image_height">200dp</dimen>
+    <dimen name="gallery_item_margin">1dp</dimen>
+    <dimen name="folder_item_margin">0.5dp</dimen>
+</resources>

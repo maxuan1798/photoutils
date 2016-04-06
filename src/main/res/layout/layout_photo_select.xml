@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/background_dark">
+
+        <TextView
+            android:id="@+id/folderName"
+            android:drawableRight="@drawable/icon_up"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@android:color/white"
+            android:text="所有图片"
+            android:textSize="15sp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/preView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:text="@string/str_preview" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layoutBottom"/>
+
+    <FrameLayout
+        android:id="@+id/folderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layoutBottom"
+        android:background="@color/folder_bg_gray"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_folder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

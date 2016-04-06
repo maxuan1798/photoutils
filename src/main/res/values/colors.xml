@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_bar">#000000</color>
+    <color name="color_mask">#66000000</color>
+    <color name="color_mask_lighter">#30000000</color>
+    <color name="folder_bg_gray">#ddd</color>
+    <color name="color_green_bar">#11cd6e</color>
+</resources>

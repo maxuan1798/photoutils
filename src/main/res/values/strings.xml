@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">选择图片</string>
+    <string name="str_photoutils_photo_select">选择图片</string>
+    <string name="str_select">选择</string>
+    <string name="str_preview">预览</string>
+    <string name="str_delete">删除</string>
+
+    <string name="str_photoutils_complete">完成</string>
+
+    <item name="TAG_POS" type="id"></item>
+    <item name="TAG_REFRESH_SIGN" type="id"></item>
+</resources>

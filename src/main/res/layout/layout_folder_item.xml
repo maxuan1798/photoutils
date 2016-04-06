@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@drawable/recycler_folder_bg"
+    android:padding="16dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/folderImage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        fresco:actualImageScaleType="focusCrop"
+        />
+
+    <TextView
+        android:id="@+id/folderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:text="Camera(10100)"/>
+
+</LinearLayout>
